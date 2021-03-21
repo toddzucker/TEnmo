@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "TenmoClient/1.0.0": {
+        "dependencies": {
+          "ConsoleMenuFramework": "1.4.0",
+          "RestSharp": "106.10.1"
+        },
+        "runtime": {
+          "TenmoClient.dll": {}
+        }
+      },
+      "ConsoleMenuFramework/1.4.0": {
+        "runtime": {
+          "lib/netcoreapp2.1/MenuFramework.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.0.0"
+          }
+        }
+      },
+      "RestSharp/106.10.1": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.0.0.0",
+            "fileVersion": "106.10.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TenmoClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConsoleMenuFramework/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cWwMBYQEZYv+xPHWWiFeN6ZBe6H0jJjKnytiOhwobJG703Dy0V/GPQmpfnXVfnvh4pXwPWMpADXSWXmEnxOk0A==",
+      "path": "consolemenuframework/1.4.0",
+      "hashPath": "consolemenuframework.1.4.0.nupkg.sha512"
+    },
+    "RestSharp/106.10.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MhR4w8LbArVaRA5T/oAR3ZnF852QXtDXRBO84GsvyYzsm7FsjXHJ+JaM8x/nR/B/OCB1WbolGH7hqMT1GZpNJw==",
+      "path": "restsharp/106.10.1",
+      "hashPath": "restsharp.106.10.1.nupkg.sha512"
+    }
+  }
+}
